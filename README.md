@@ -1,6 +1,3 @@
-# Import the oList class
-from oList import oList
-
 # oList
 ##### A Python 'Object List'. It's basically your standard python list that additionally lets you attach data to it that doesn't affect the actual list items itself.<br>
 ##### Treat the oList as you would a normal list:<br>
@@ -12,6 +9,9 @@ for list_item in my_list:
 ```
 ## oList Methods:
 ``` python
+# Import the oList class
+from oList import oList
+
 oList.attach('data') # can be of any type
 oList.get_attachments() # returns a list or the object itself if the attachments are only 1
 oList.as_dict(_attachments=True) # returns a dict, access values being index, _attachment=True will add attachment data to the dict
@@ -19,6 +19,9 @@ oList.as_tuple() # returns tuple
 ```
 ## Example Usage:
 ``` python
+# Import the oList class
+from oList import oList
+
 intel_list = oList([
     'i5-9600k',
     'i9-10910',
