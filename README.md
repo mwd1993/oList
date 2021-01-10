@@ -9,7 +9,6 @@ for list_item in my_list:
 ```
 ## oList Methods:
 ``` python
-# Import the oList class
 from oList import oList
 
 oList.attach('data') # can be of any type
