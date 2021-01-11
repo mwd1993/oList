@@ -7,6 +7,7 @@ class oList:
     .as_dict(_attachments=True) # returns: dict by list index,\n
     \t\t_attachments will also add 'attachments': to the dict
     """
+
     def __init__(self, _list=[]):
         assert type(_list) is list, 'oList argument should be a list!'
         self.__list = _list
@@ -17,7 +18,7 @@ class oList:
         return str(self.__list)
 
     def __repr__(self):
-        return self.__list
+        return str(self.__list)
 
     def __iter__(self):
         return self
