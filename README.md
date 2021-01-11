@@ -1,4 +1,5 @@
 # oList
+## pip install oList
 ##### A Python 'Object List'. It's basically your standard python list that additionally lets you attach data to it that doesn't affect the actual list items itself.<br>
 ##### Treat the oList as you would a normal list:<br>
 ```python
